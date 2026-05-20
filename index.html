@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InAmigos Foundation – Transforming Lives</title>
+
+  <!-- ── Google Fonts ── -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- ── External Stylesheet ── -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════════════════════
+     NAVBAR
+     ════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-logo">InAmigos<span> Foundation</span></div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#impact">Impact</a>
+      <a href="#certifications">Certify</a>
+      <a href="#journey">Journey</a>
+      <a href="#cta" class="nav-cta">Join Us</a>
+    </div>
+
+    <div class="hamburger" id="hamburger" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+
+  <!-- ════════════════════════════════════════
+     HERO
+     ════════════════════════════════════════ -->
+  <section class="hero" id="home">
+
+    <!-- Background image -->
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1800&q=80"
+        alt="Volunteers helping community" loading="eager" />
+      <div class="hero-bg-overlay"></div>
+    </div>
+
+    <!-- Animated art layer -->
+    <div class="hero-bg-art">
+      <div class="hero-circle hc1"></div>
+      <div class="hero-circle hc2"></div>
+      <div class="hero-circle hc3"></div>
+      <div class="dots-field" id="dotsField"></div>
+    </div>
+
+    <!-- Main content -->
+    <div class="hero-content">
+      <div class="hero-badge">Live Initiative · Est. 2020</div>
+
+      <h1>
+        Together, <br>
+        <span class="accent">Transforming</span><br>
+        <span class="line2">Lives.</span>
+      </h1>
+
+      <p class="hero-sub">
+        InAmigos Foundation is a Section&nbsp;8 registered non-profit dedicated to
+        creating lasting social impact across India — through education, food,
+        women empowerment, environment, and animal welfare.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#cta" class="btn-primary">Volunteer With Us →</a>
+        <a href="#projects" class="btn-outline">Explore Projects</a>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num" data-count="50000">0</div>
+          <div class="hero-stat-lbl">Meals &amp; Clothes<br>Distributed</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-count="30000">0</div>
+          <div class="hero-stat-lbl">Interns Trained<br>via VIKAS</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-count="20000">0</div>
+          <div class="hero-stat-lbl">Trees Planted<br>by Prakriti</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-count="900">0</div>
+          <div class="hero-stat-lbl">Girls Empowered<br>through Udaan</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating card (desktop only) -->
+    <div class="hero-visual">
+      <div class="hero-card">
+        <img class="hero-card-img" src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600&q=80"
+          alt="Food distribution drive" />
+        <div class="hero-card-body">
+          <div class="hero-card-tag">Current Campaign · #InAmigos</div>
+          <div class="hero-card-title">Project SEVA — Food &amp; Clothing Drive</div>
+          <div class="hero-card-desc">
+            Distributing nutritious meals and clothing to underprivileged families
+            across Chhattisgarh and beyond.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+     ABOUT
+     ════════════════════════════════════════ -->
+  <section id="about">
+
+    <div class="reveal">
+      <span class="section-label">Who We Are</span>
+      <h2 class="section-title">A Movement Built on <span class="accent">Compassion</span></h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="about-grid">
+
+      <!-- Image column -->
+      <div class="about-img-wrap reveal">
+        <div class="about-img-box">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80"
+            alt="InAmigos volunteers at work" />
+          <div class="about-img-overlay"></div>
+          <div class="about-founded-badge">
+            <span class="year">2020</span>
+            <span class="lbl">Founded</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text column -->
+      <div class="about-text reveal">
+        <p>
+          <strong style="color:var(--deep);">InAmigos Foundation</strong> was founded on
+          <strong>September&nbsp;23, 2020</strong> by <strong>Mr.&nbsp;Govind Shukla</strong>
+          (Founder &amp; CEO). Based in <strong>Chhattisgarh</strong>, we operate across India
+          addressing critical societal challenges through a network of dedicated professionals
+          and volunteers.
+        </p>
+        <p>
+          We believe every act of kindness, however small, can ignite lasting change.
+          From distributing meals to planting trees, from educating children to empowering
+          women — every initiative reflects our commitment to a compassionate, inclusive,
+          and sustainable society.
+        </p>
+
+        <div class="about-certs">
+          <span class="cert-chip">✔ Section 8 Non-Profit</span>
+          <span class="cert-chip">✔ 80G &amp; 12A Certified</span>
+          <span class="cert-chip">✔ CSR-1 Registered</span>
+          <span class="cert-chip">✔ NITI Aayog Registered</span>
+          <span class="cert-chip">✔ IAF ISO 9001:2015</span>
+        </div>
+
+        <div class="founder-line">
+          <img class="founder-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+            alt="Mr. Govind Shukla" />
+          <div>
+            <div class="founder-name">Mr. Govind Shukla</div>
+            <div class="founder-role">Founder &amp; CEO, InAmigos Foundation</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+     PROJECTS
+     ════════════════════════════════════════ -->
+  <section id="projects">
+
+    <div class="reveal">
+      <span class="section-label">Our Initiatives</span>
+      <h2 class="section-title" style="color:#fff;">
+        Six Projects. <span style="color:var(--amber);">One Mission.</span>
+      </h2>
+      <div class="divider"></div>
+      <p class="section-desc">
+        Every rupee raised is invested into transformative projects spanning education,
+        food security, animal welfare, women's empowerment, skill development,
+        and environmental sustainability.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- SEVA -->
+      <div class="project-card reveal">
+        <div class="project-img-wrap">
+          <img class="project-img" src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=700&q=80"
+            alt="Project SEVA – food distribution" />
+          <span class="project-img-tag">Food &amp; Clothing</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-name">Project SEVA</div>
+          <p class="project-card-desc">
+            Tackling hunger and clothing poverty among impoverished communities.
+            Beyond basic needs, it fosters dignity and ensures no family goes to bed hungry.
+          </p>
+          <div class="project-metric">
+            <span class="pm-num" style="color:#FF7043;">50K+</span>
+            <span class="pm-lbl">meals &amp; clothes distributed</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACHPANSHALA -->
+      <div class="project-card reveal">
+        <div class="project-img-wrap">
+          <img class="project-img" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&q=80"
+            alt="Project BACHPANSHALA – education" />
+          <span class="project-img-tag">Education</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-name">Project BACHPANSHALA</div>
+          <p class="project-card-desc">
+            Breaking the cycle of poverty through quality education — offering underprivileged
+            children learning sessions, school supplies, digital literacy, and life skills.
+          </p>
+          <div class="project-metric">
+            <span class="pm-num" style="color:#F9A825;">1000s</span>
+            <span class="pm-lbl">children supported</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- UDAAN -->
+      <div class="project-card reveal">
+        <div class="project-img-wrap">
+          <img class="project-img" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=700&q=80"
+            alt="Project UDAAN – women empowerment" />
+          <span class="project-img-tag">Women Empowerment</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-name">Project UDAAN</div>
+          <p class="project-card-desc">
+            Rewriting stories of hope for women in rural India — providing vocational training,
+            skill development, and pathways to financial independence and community leadership.
+          </p>
+          <div class="project-metric">
+            <span class="pm-num" style="color:#F48FB1;">900+</span>
+            <span class="pm-lbl">girls empowered</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRAKRITI -->
+      <div class="project-card reveal">
+        <div class="project-img-wrap">
+          <img class="project-img" src="https://images.unsplash.com/photo-1542601906897-2f3a470e61a8?w=700&q=80"
+            alt="Project PRAKRITI – environment" />
+          <span class="project-img-tag">Environment</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-name">Project PRAKRITI</div>
+          <p class="project-card-desc">
+            Focused on sustainability through tree-planting drives, clean-up campaigns,
+            and conservation workshops to instill environmental responsibility.
+          </p>
+          <div class="project-metric">
+            <span class="pm-num" style="color:#81C784;">20K+</span>
+            <span class="pm-lbl">trees planted</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- JEEV -->
+      <div class="project-card reveal">
+        <div class="project-img-wrap">
+          <img class="project-img" src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=700&q=80"
+            alt="Project JEEV – animal welfare" />
+          <span class="project-img-tag">Animal Welfare</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-name">Project JEEV</div>
+          <p class="project-card-desc">
+            Extending compassion to all living beings — feeding and caring for stray animals
+            and promoting humane treatment across communities every single day.
+          </p>
+          <div class="project-metric">
+            <span class="pm-num" style="color:#4DB6AC;">50+</span>
+            <span class="pm-lbl">animals fed daily</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIKAS -->
+      <div class="project-card reveal">
+        <div class="project-img-wrap">
+          <img class="project-img" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=700&q=80"
+            alt="Project VIKAS – skill development" />
+          <span class="project-img-tag">Skill Development</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-name">Project VIKAS</div>
+          <p class="project-card-desc">
+            Bridging the employment gap through internships in data operations, finance,
+            research, content writing, digital marketing, and social work.
+          </p>
+          <div class="project-metric">
+            <span class="pm-num" style="color:#64B5F6;">30K+</span>
+            <span class="pm-lbl">interns trained in 4 years</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+     IMPACT
+     ════════════════════════════════════════ -->
+  <section id="impact">
+
+    <div class="impact-intro reveal">
+      <span class="section-label">Social Impact</span>
+      <h2 class="section-title">Measuring the <span class="accent">Change</span> We Create</h2>
+      <div class="divider"></div>
+      <p class="section-desc">
+        Numbers tell only part of the story — behind every figure is a family fed,
+        a child educated, a woman empowered, or a tree that will stand for generations.
+      </p>
+    </div>
+
+    <!-- Animated stat cards -->
+    <div class="stats-row">
+      <div class="stat-card reveal">
+        <div class="stat-emoji">🍱</div>
+        <div class="stat-num"><span id="c1">0</span>K+</div>
+        <div class="stat-lbl">Meals &amp; Clothes<br>Distributed (SEVA)</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-emoji">🎓</div>
+        <div class="stat-num"><span id="c2">0</span>K+</div>
+        <div class="stat-lbl">Interns Trained<br>(VIKAS – 4 yrs)</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-emoji">🌳</div>
+        <div class="stat-num"><span id="c3">0</span>K+</div>
+        <div class="stat-lbl">Trees Planted<br>(PRAKRITI)</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-emoji">👩</div>
+        <div class="stat-num"><span id="c4">0</span>+</div>
+        <div class="stat-lbl">Girls Empowered<br>(UDAAN)</div>
+      </div>
+    </div>
+
+    <!-- Story cards with images -->
+    <div class="impact-story">
+
+      <div class="story-card reveal">
+        <img class="story-card-img" src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=700&q=80"
+          alt="Community volunteers" />
+        <div class="story-card-body">
+          <div class="story-icon">🤝</div>
+          <div>
+            <div class="story-title">Dignity Through Every Meal</div>
+            <p class="story-text">
+              Project SEVA restores dignity. Volunteers connect personally with communities,
+              ensuring every individual feels seen, valued, and cared for during their
+              most vulnerable moments.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="story-card reveal">
+        <img class="story-card-img" src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=700&q=80"
+          alt="Children in classroom" />
+        <div class="story-card-body">
+          <div class="story-icon">💡</div>
+          <div>
+            <div class="story-title">Education as Liberation</div>
+            <p class="story-text">
+              Through BACHPANSHALA, children are introduced to possibilities beyond their
+              immediate surroundings, building aspiration and agency that can break
+              the intergenerational cycle of poverty.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="story-card reveal">
+        <img class="story-card-img" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=700&q=80"
+          alt="Women empowerment workshop" />
+        <div class="story-card-body">
+          <div class="story-icon">🌺</div>
+          <div>
+            <div class="story-title">A Flight Toward Freedom</div>
+            <p class="story-text">
+              Project UDAAN — meaning "flight" — equips women in rural India with
+              vocational tools to rise above social and economic barriers,
+              becoming self-reliant community leaders.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="story-card reveal">
+        <img class="story-card-img" src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=700&q=80"
+          alt="Tree planting drive" />
+        <div class="story-card-body">
+          <div class="story-icon">🌱</div>
+          <div>
+            <div class="story-title">Planet-First Thinking</div>
+            <p class="story-text">
+              PRAKRITI's community-driven approach teaches that environmental responsibility
+              starts at the local level — from segregating waste to planting saplings
+              with purpose, one action at a time.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+     CERTIFICATIONS
+     ════════════════════════════════════════ -->
+  <section id="certifications">
+
+    <div class="reveal" style="text-align:center;">
+      <span class="section-label">Trust &amp; Transparency</span>
+      <h2 class="section-title">Certified. <span class="accent">Accountable.</span> Trusted.</h2>
+      <div class="divider" style="margin:1rem auto;"></div>
+      <p class="section-desc" style="margin:0 auto;">
+        Our certifications ensure every rupee donated is utilised with the highest
+        standards of transparency and accountability.
+      </p>
+    </div>
+
+    <div class="cert-grid">
+      <div class="cert-block reveal">
+        <div class="cert-icon">🏛️</div>
+        <div class="cert-name">Section 8</div>
+        <div class="cert-sub">Licensed Non-Profit by Central Government</div>
+      </div>
+      <div class="cert-block reveal">
+        <div class="cert-icon">📋</div>
+        <div class="cert-name">80G &amp; 12A</div>
+        <div class="cert-sub">Tax-exempt benefits &amp; transparency for donors</div>
+      </div>
+      <div class="cert-block reveal">
+        <div class="cert-icon">🤝</div>
+        <div class="cert-name">CSR-1</div>
+        <div class="cert-sub">Eligible for Corporate CSR Partnerships</div>
+      </div>
+      <div class="cert-block reveal">
+        <div class="cert-icon">🇮🇳</div>
+        <div class="cert-name">NITI Aayog</div>
+        <div class="cert-sub">Aligned with National Development Goals</div>
+      </div>
+      <div class="cert-block reveal">
+        <div class="cert-icon">🏅</div>
+        <div class="cert-name">ISO 9001:2015</div>
+        <div class="cert-sub">IAF Certified — High-Quality Standards</div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+     JOURNEY / TIMELINE
+     ════════════════════════════════════════ -->
+  <section id="journey">
+
+    <div style="text-align:center;" class="reveal">
+      <span class="section-label">Our Story</span>
+      <h2 class="section-title" style="color:#fff;text-align:center;">
+        The InAmigos <span style="color:var(--amber);">Journey</span>
+      </h2>
+      <div class="divider" style="margin:1rem auto;background:var(--amber);"></div>
+    </div>
+
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--flame);box-shadow:0 0 0 3px var(--flame);"></div>
+        <div class="tl-year">September 2020</div>
+        <div class="tl-title">Foundation Established</div>
+        <p class="tl-text">Mr. Govind Shukla founded InAmigos Foundation on September 23, 2020 in
+          Chhattisgarh with a vision to create lasting social impact across India.</p>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--amber);box-shadow:0 0 0 3px var(--amber);"></div>
+        <div class="tl-year">2020 – 2021</div>
+        <div class="tl-title">Project SEVA Launches</div>
+        <p class="tl-text">The first initiative — food and clothing distribution — begins, reaching
+          thousands of underprivileged families in Chhattisgarh and neighbouring regions.</p>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--teal);box-shadow:0 0 0 3px var(--teal);"></div>
+        <div class="tl-year">2021 – 2022</div>
+        <div class="tl-title">Education &amp; Empowerment Expands</div>
+        <p class="tl-text">Projects BACHPANSHALA and UDAAN take shape, delivering digital literacy
+          to children and vocational training to women across rural India.</p>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot" style="background:#81C784;box-shadow:0 0 0 3px #81C784;"></div>
+        <div class="tl-year">2022 – 2023</div>
+        <div class="tl-title">VIKAS, PRAKRITI &amp; JEEV Launch</div>
+        <p class="tl-text">Internship programs, environmental drives, and animal welfare initiatives
+          are introduced, creating a 360° impact model addressing all dimensions of society.</p>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--amber);box-shadow:0 0 0 3px var(--amber);"></div>
+        <div class="tl-year">2024</div>
+        <div class="tl-title">30,000+ Interns Trained</div>
+        <p class="tl-text">Project VIKAS crosses a landmark milestone — 30,000+ young professionals
+          trained in four years, strengthening India's skill ecosystem from the grassroots.</p>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--flame);box-shadow:0 0 0 3px var(--flame);"></div>
+        <div class="tl-year">2025 – Present</div>
+        <div class="tl-title">Growing Nationwide</div>
+        <p class="tl-text">With ISO 9001:2015, NITI Aayog, and CSR-1 certifications, InAmigos
+          Foundation continues expanding its reach and inspiring collective action across India.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+     GALLERY (auto-scroll strip)
+     ════════════════════════════════════════ -->
+  <section id="gallery">
+    <div class="gallery-header">
+      <span class="section-label">In the Field</span>
+      <h2 class="section-title">Moments of <span class="accent">Impact</span></h2>
+    </div>
+
+    <div style="overflow:hidden;">
+      <div class="gallery-track">
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=500&q=75" alt="Food distribution" />
+          <div class="gallery-item-label">Project SEVA</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&q=75" alt="Children learning" />
+          <div class="gallery-item-label">Bachpanshala</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&q=75" alt="Women workshop" />
+          <div class="gallery-item-label">Project UDAAN</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1542601906897-2f3a470e61a8?w=500&q=75" alt="Tree planting" />
+          <div class="gallery-item-label">Project PRAKRITI</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=500&q=75" alt="Animal care" />
+          <div class="gallery-item-label">Project JEEV</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&q=75" alt="Skill training" />
+          <div class="gallery-item-label">Project VIKAS</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=500&q=75" alt="Volunteers" />
+          <div class="gallery-item-label">Volunteers</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=500&q=75" alt="Community" />
+          <div class="gallery-item-label">Community</div>
+        </div>
+
+        <!-- Duplicate set for seamless infinite loop -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=500&q=75" alt="Food distribution" />
+          <div class="gallery-item-label">Project SEVA</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&q=75" alt="Children learning" />
+          <div class="gallery-item-label">Bachpanshala</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&q=75" alt="Women workshop" />
+          <div class="gallery-item-label">Project UDAAN</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1542601906897-2f3a470e61a8?w=500&q=75" alt="Tree planting" />
+          <div class="gallery-item-label">Project PRAKRITI</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=500&q=75" alt="Animal care" />
+          <div class="gallery-item-label">Project JEEV</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&q=75" alt="Skill training" />
+          <div class="gallery-item-label">Project VIKAS</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=500&q=75" alt="Volunteers" />
+          <div class="gallery-item-label">Volunteers</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=500&q=75" alt="Community" />
+          <div class="gallery-item-label">Community</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+     CALL TO ACTION
+     ════════════════════════════════════════ -->
+  <section id="cta">
+    <div class="cta-wrap reveal">
+
+      <!-- Background decorative image -->
+      <div class="cta-bg-img">
+        <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=900&q=75" alt="" aria-hidden="true" />
+      </div>
+
+      <div class="cta-inner">
+        <span class="section-label">Get Involved</span>
+        <h2>Be the Change.<br>Join InAmigos.</h2>
+        <p>
+          Whether through volunteering, donations, or corporate partnerships —
+          every contribution strengthens our cause and enables us to expand our
+          reach and transform more lives.
+        </p>
+
+        <div class="cta-cards">
+          <div class="cta-card">
+            <div class="cta-card-icon">🙋</div>
+            <div class="cta-card-title">Volunteer</div>
+            <div class="cta-card-text">Join our on-ground teams and make a tangible difference in your community.</div>
+          </div>
+          <div class="cta-card">
+            <div class="cta-card-icon">💛</div>
+            <div class="cta-card-title">Donate</div>
+            <div class="cta-card-text">Support initiatives financially to amplify their reach and impact.</div>
+          </div>
+          <div class="cta-card">
+            <div class="cta-card-icon">🏢</div>
+            <div class="cta-card-title">CSR Partner</div>
+            <div class="cta-card-text">Collaborate with us for impactful Corporate Social Responsibility programs.</div>
+          </div>
+          <div class="cta-card">
+            <div class="cta-card-icon">📣</div>
+            <div class="cta-card-title">Advocate</div>
+            <div class="cta-card-text">Spread awareness within your network and amplify our mission online.</div>
+          </div>
+        </div>
+
+        <div class="cta-btn-row">
+          <a href="https://inamigosfoundation.org.in/" target="_blank" class="btn-amber">
+            Visit Our Website →
+          </a>
+          <a href="https://www.linkedin.com/company/inamigos-foundation/" target="_blank" class="btn-outline"
+            style="border-color:rgba(255,255,255,.4);color:#fff;">
+            Follow on LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="cta-decoration">#InAmigos</div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+     CONTACT
+     ════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="contact-grid reveal">
+      <div class="contact-left">
+        <h2>Connect With Us</h2>
+        <p>Reach out to be a part of India's most compassionate community-driven movement.</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://inamigosfoundation.org.in/" target="_blank" class="contact-link">🌐 Website</a>
+        <a href="https://www.linkedin.com/company/inamigos-foundation/" target="_blank" class="contact-link">💼
+          LinkedIn</a>
+        <a href="https://x.com/inamigosf" target="_blank" class="contact-link">🐦 Twitter / X</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+     FOOTER
+     ════════════════════════════════════════ -->
+  <footer>
+    <p>
+      © 2025
+      <strong style="color:rgba(255,255,255,.72);">InAmigos Foundation</strong>
+      &nbsp;·&nbsp; Section 8 Non-Profit &nbsp;·&nbsp;
+      Founded September 23, 2020 &nbsp;·&nbsp; Chhattisgarh, India
+    </p>
+    <p class="hashtags">
+      #InAmigos &nbsp;|&nbsp; #ProjectSeva &nbsp;|&nbsp; #ProjectBachpanshala
+      &nbsp;|&nbsp; #ProjectUdaan &nbsp;|&nbsp; #ProjectPrakriti
+      &nbsp;|&nbsp; #ProjectJeev &nbsp;|&nbsp; #ProjectVikas
+    </p>
+    <p style="margin-top:.5rem;">
+      Webpage created for
+      <a href="https://inamigosfoundation.org.in/" target="_blank">InAmigos Foundation</a>
+      Awareness Initiative
+    </p>
+  </footer>
+
+
+  <!-- ════════════════════════════════════════
+     EXTERNAL JAVASCRIPT
+     ════════════════════════════════════════ -->
+  <script src="script.js"></script>
+</body>
+
+</html>
